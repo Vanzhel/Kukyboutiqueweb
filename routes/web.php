@@ -13,6 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+//Route::get('/', function () {
+//    return view('layout');
+//});
+Route::get('/', 'Web\LandingController@index');
+Route::get('/listventa', 'Web\LandingController@listsale');
+//Route::get('/administrator', 'Web\Administrator\DashController@paneladmin');

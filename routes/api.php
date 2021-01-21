@@ -43,4 +43,3 @@ Route::apiResource('sexo','SexoController');
 Route::apiResource('talla','TallaController');
 Route::apiResource('tipooferta','TipoOfertaController');
 Route::apiResource('venta','VentaController');
-
