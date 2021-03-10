@@ -14,4 +14,12 @@ class LandingController extends Controller
     public function listsale(){
         return view('landing/listaventa');
     }
+
+    public function newsale(){
+        return view('landing/nuevaventa');
+    }
+
+    public function listproduct(){
+        return view('landing/listaproducto');
+    }
 }

@@ -50,8 +50,8 @@
                 </a>
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item" href="nueva_venta.php">Nueva venta</a>
-                        <a class="collapse-item" href="/listaventas">Ventas</a>
+                        <a class="collapse-item" href="/listventa">Ventas</a>
+                        <a class="collapse-item" href="/newventa">Nueva venta</a>
                     </div>
                 </div>
             </li>
@@ -64,8 +64,8 @@
                 </a>
                 <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item" href="registro_producto.php">Nuevo Producto</a>
-                        <a class="collapse-item" href="lista_productos.php">Productos</a>
+                        <a class="collapse-item" href="/listaproducto">Productos</a>
+                        <a class="collapse-item" href="#">Nuevo Producto</a>
                     </div>
                 </div>
             </li>
@@ -74,12 +74,12 @@
             <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseClientes" aria-expanded="true" aria-controls="collapseUtilities">
                     <i class="fas fa-users"></i>
-                    <span>Clientes</span>
+                    <span>Usuarios</span>
                 </a>
                 <div id="collapseClientes" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item" href="registro_cliente.php">Nuevo Clientes</a>
-                        <a class="collapse-item" href="lista_cliente.php">Clientes</a>
+                        <a class="collapse-item" href="#">Clientes</a>
+                        <a class="collapse-item" href="#">Empleados</a>
                     </div>
                 </div>
             </li>
@@ -87,12 +87,12 @@
             <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseProveedor" aria-expanded="true" aria-controls="collapseUtilities">
                     <i class="fas fa-hospital"></i>
-                    <span>Proveedor</span>
+                    <span>Proveedores</span>
                 </a>
                 <div id="collapseProveedor" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item" href="registro_proveedor.php">Nuevo Proveedor</a>
-                        <a class="collapse-item" href="lista_proveedor.php">Proveedores</a>
+                        <a class="collapse-item" href="#">Proveedores</a>
+                        <a class="collapse-item" href="#">Nuevo Proveedor</a>
                     </div>
                 </div>
             </li>
@@ -100,7 +100,7 @@
             <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUsuarios" aria-expanded="true" aria-controls="collapseUtilities">
                     <i class="fas fa-user"></i>
-                    <span>Usuarios</span>
+                    <span>Reportes</span>
                 </a>
                 <div id="collapseUsuarios" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
