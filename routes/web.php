@@ -21,4 +21,5 @@ Route::get('/listventa', 'Web\LandingController@listsale');
 Route::get('/newventa', 'Web\LandingController@newsale');
 Route::get('/listproducto', 'Web\LandingController@listproduct');
 Route::get('index', function(){return view('cliente/index');});
+Route::get('login', function(){return view('cliente/login');});
 //Route::get('/administrator', 'Web\Administrator\DashController@paneladmin');
